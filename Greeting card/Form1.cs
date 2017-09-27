@@ -50,7 +50,12 @@ namespace Greeting_card
             Pen drawPen = new Pen(Color.Blue, 10);
             SolidBrush drawBrush = new SolidBrush(Color.Blue);
 
-            formGraphics.DrawLine(drawPen, 100, 225, 50, 75);//
-        }
+            formGraphics.DrawLine(drawPen, 150, 225, 150, 75);//
+            Thread.Sleep(250);
+            formGraphics.DrawLine(drawPen, 150, 175, 200, 100);
+            Thread.Sleep(250);
+            formGraphics.DrawLine(drawPen, 150, 175, 75, 125);
+            Thread.Sleep(250);
+;       }
     }
 }
